@@ -1,0 +1,19 @@
+name: seaice-cdr-ncai 
+channels:
+  - conda-forge
+  - nodefaults
+
+dependencies:
+  - python ~=3.11.7
+
+  - netcdf4
+  - numpy
+  - pandas
+  - pre-commit
+  - pystac
+  - pathlib
+  - xarray
+
+  # jupyter environment
+  - notebook
+  - jupyterlab
