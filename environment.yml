@@ -6,6 +6,9 @@ channels:
 dependencies:
   - python ~=3.11.7
 
+  - aiohttp
+  - h5netcdf
+  - fsspec
   - netcdf4
   - numpy
   - pandas
