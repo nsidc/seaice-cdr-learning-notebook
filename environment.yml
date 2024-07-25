@@ -16,6 +16,7 @@ dependencies:
   - pystac
   - pathlib
   - xarray
+  - matplotlib
 
   # jupyter environment
   - notebook
