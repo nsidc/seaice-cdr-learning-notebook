@@ -1,4 +1,4 @@
-name: seaice-cdr-ncai 
+name: seaice-cdr-ncai
 channels:
   - conda-forge
   - nodefaults
@@ -17,7 +17,13 @@ dependencies:
   - pathlib
   - xarray
   - matplotlib
+  - pyarrow
+  - requests
+  - libgfortran
 
   # jupyter environment
   - notebook
   - jupyterlab
+
+  - pip:
+    - stac-geoparquet
