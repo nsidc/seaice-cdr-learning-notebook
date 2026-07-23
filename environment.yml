@@ -17,6 +17,9 @@ dependencies:
   - pathlib
   - xarray
   - matplotlib
+  - pyarrow
+  - stac-geoparquet
+  - requests
 
   # jupyter environment
   - notebook
